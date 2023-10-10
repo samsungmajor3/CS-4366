@@ -122,7 +122,21 @@
             <div class="d-sm-flex align-items-center justify-content-between pt-5">
                 <div>
                     <h1>Interview Summary</h1>
-                    <p class="lead my-4">Hello World!
+                    <p class="lead my-4">The task is to set up and API into the GLEAMM cluster head node to support stress-ng functionality and to control the throttle on the cluster based on availability of renewable energy produced at the GLEAMM facility. 
+                        The stress-ng C code will need to be wrapped in order for the API to support it. Such attempts have failed in the past due to pointers in C not being compatible with python. 
+                        A web-interface for the stress-ng functions and to control the throttle on the GLEAMM cluster. 
+                        The stress-ng interface will be used to test the cluster remotely instead of going to the facility in person and calling command line parameters because GLEAMM cluster is on its own private network. 
+                        These tests will include throttling the cpu load, memory load, and I/O load.
+                        <br>
+                        Functionality of the web interface, other than connecting to the cluster via an API, includes sending stress-ng calls to the cluster for testing, ability to throttle the cluster operations based on available energy automatically and the ability to throttle the operations manually for various reasons. 
+                        Scaled graphs have been requested to display power production vs power consumption of the cluster.
+                        <br>
+                        The speed of the API will depend on the needs of each facility based on its size. 
+                        The larger the size, the less response time is needed from the API due to the build up of inertia in the system. 
+                        For the GLEAMM facility, one call every fourteen seconds is sufficient. 
+
+
+                        
                     </p>
                     
 
