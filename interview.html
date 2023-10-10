@@ -147,9 +147,24 @@
 
     <br><br>
 
-    Q2.
+    Q2.How would our project be visualized or structured?
     <br>
-    A2.
+    A2.Develop an API that encompasses the key functionalities of stress-ng. 
+    <br>
+    This API should empower a client, initially deployable on either the head node of the zephyr cluster or another node within the private network, to dynamically adjust CPU load. 
+    <br>
+    Optionally, it should provide capabilities for managing memory and I/O loads by invoking the C functions of the stress-ng code instead of relying on command-line usage.
+    <br>
+    This API will be integrated with data from the GLEAMM energy facility collected by Elham. 
+    <br>
+    The energy availability information will be used to dynamically modify the load on the cluster.
+    <br>
+    After this integration, additional functionalities will be incorporated to enable comprehensive control or balancing of power sources from the facility to the cluster. 
+    <br>
+    The primary goal is to ensure the continuous operation of the cluster. 
+    <br>
+    In scenarios such as cloudy weather, preventing the use of solar power, the cluster needs to autonomously determine the alternative power source to utilize.
+
 <br><br>
      Q3.
     <br>
