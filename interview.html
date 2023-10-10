@@ -166,7 +166,7 @@
     In scenarios such as cloudy weather, preventing the use of solar power, the cluster needs to autonomously determine the alternative power source to utilize.
 
 <br><br>
-     Q3.What types of energy sources do we need to take into account?
+    Q3.What types of energy sources do we need to take into account?
     <br>
     A3.We use solar, commercial electricity which comes from South Plains Electric Co-op that we pay by the kilowatt per hour for, we have battery banks, and we’re working on integrating wind energy from a turbine. 
     <br>
@@ -175,11 +175,16 @@
     We do have a diesel generator but we’ve used it less and less as we aim to have a low carbon footprint with the facility and any future similar facilities. 
 
 <br><br>
-     Q4.
+    Q4.Considerations for the API implementation?
     <br>
-    A4.
+    A4.Essentially you want to be able to communicate to the head node of the cluster which then will communicate to the other nodes so you want the client side to be on the head node. 
+    <br>
+    The PDU (power distribution unit) also has access to the head node so we can control the amount of nodes active through the head node. 
+    <br>
+    With this you can schedule power load balancing to efficiently have the cluster always running using the various forms of energy.
+
 <br><br>
-     Q5.
+    Q5.
     <br>
     A5. 
     
