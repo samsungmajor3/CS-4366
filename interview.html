@@ -167,9 +167,20 @@
     <br>
     Furthermore, I am overseeing a couple of other PhD students who are engaged in various projects.
     <br><br>
-    Q3.
+    Q3.What were the inquiries or requests made earlier regarding this project, and what were the outcomes?
     <br>
-    A3.
+    A3.Aviral was tasked with making a web-interface for stress-ng as it was passed through command line and unix based. 
+    <br>
+    This web-interface would have taken the countless functions from stress-ng have them run through there instead of having to call from command line parameters. 
+    <br> 
+    By doing this, he had to find a way to enumerate all the functions in stress-ng using packages to the web interface. 
+    <br>
+    We had to come to just using OpenAPI to create a direct call to stessng from the web interface to send the variables but we had issues with this as a different package wouldn’t accept specific variables that used pointers. 
+    <br>
+    Python doesn’t handle pointers very well so when we tried to interface with that, it didn’t work very well. 
+    <br>
+    So he opted to create a python wrapper to have a few of the stress-ng commands be able to be run. 
+
     <br><br>
     Q4.
     <br>
