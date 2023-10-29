@@ -142,8 +142,17 @@
     The I/O systems and load extend the test CPU functionality.
 
     <br><br>
-            
+
+    (3) Load Management Class:<br>
+    The main system controller class is the central component that manages and instantiates other objects to implement various functions.
+    <br>
+    When a user accesses the web application and logs in, the API is initialized, and it creates a call object to store API data. 
+    <br>The controller, upon receiving API calls, instantiates solarVsTime, commercialUsage, and clusterUsage objects, which generate visual elements for the UI.
+    <br>These objects are derived from the Visualization class, which stores graph data from the call object. 
+    <br>Additionally, the controller initializes the management class, which, in turn, creates a schedule object to manage data and user-defined cluster throttle times. 
+    <br>Finally, the UI includes a logout feature to allow users to log out of the system.
         <br><br>
+    
     <h1 class="text-left">UI Prototype</h1>
    
     <br>
