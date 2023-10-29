@@ -152,7 +152,17 @@
     <br>Additionally, the controller initializes the management class, which, in turn, creates a schedule object to manage data and user-defined cluster throttle times. 
     <br>Finally, the UI includes a logout feature to allow users to log out of the system.
         <br><br>
-    
+
+    (4) Stress-ng Class:<br>
+    The controller will the the main class in this system. 
+    <br>When someone accesses the web-application, the controller instantiates a userInterface object which will take input from the user to indicate what the user would like to do.
+    <br>If the user selects test CPU, and testCPU object is instantiated by the controller. 
+    <br>If the user selects test memory, the controller instantiates a testMemory object, and so on.
+    <br>The results of these tests will be sent back as output through the controller to the UI.
+
+
+
+    <br><br>
     <h1 class="text-left">UI Prototype</h1>
    
     <br>
