@@ -128,7 +128,20 @@
         
       <h1 class="text-left"><u>Implementation Overview</u></h1>
           
-          <p> 
+          <p>To implement all the different tools and functions within our project, 
+              we created a github repository to have all the code and documentation saved in a central location. 
+              The workload was divided by function, UI development, Stress_NG, and Load_Managment. 
+              For UI development, it was all done in Flask and HTML. 
+              The method used for the UI development had a central login page that connects to the other functions on the page via buttons. 
+              For Stress_NG, we took the stress_ng library which can be found on github, 
+              and ran the command line functions through the FLASK API  REST API, to have them run on the web browser via encoded buttons. 
+              To implement the load management segment, we coded in Flask using Python to call a cpu’s process name, 
+              example: Rack5_CPU3, to control the throttle or usage rate of the CPU by using a function call to set the subprocess cpu speed to the inputted percentage needed by the user. 
+              Building upon this, we included a function that uses a 24-hour format to schedule at a given time the rate the user wishes to have the CPU usage rate set to. 
+              To visualize this, HTML was used to create input boxes and buttons for these operations for the user to enter and interact with that call back to their respective functions when used. 
+              To see the CPU usage rate, a graphing function was created to read data from a csv file to look for timestamps of 15 minute intervals and their associated cpu usage rate at that given time. 
+              The function would then pass to HTML to create a graph as shown earlier.</p> 
+    
               <br><br><br><br>
       <h1 class="text-left"><u>Validation and Demo</u></h1>
 
