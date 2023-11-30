@@ -190,9 +190,15 @@ Debian packages for Ubuntu:<br>
 	Running latest stress-ng snapshot in a container:<br>
 		<span class="tab">&#9&emsp;&emsp;&emsp;&emsp;&emsp;<I>docker run --rm ghcr.io/colinianking/stress-ng --help</I></span><br>
 		OR
-		<span class="tab">&#9&emsp;&emsp;&emsp;&emsp;&emsp;<I>docker run --rm colinianking/stress-ng --help</I></span><br>
+		<span class="tab">&#9&emsp;&emsp;&emsp;&emsp;&emsp;<I>docker run --rm colinianking/stress-ng --help</I></span><br><br>
 		
 
+	<p>Ensure the path to the stress-ng file is usr/bin/stress-ng. You can test the local computer's CPU, memory, and I/O.
+	Each test requires the user to input the number of CPU/ memory/ I/O workers and stress time in seconds. 
+	After that, you will click execute, and it will run the test on your computer. 
+	The result will show up below the user input section. 
+	For the remote server, you must input the Remote server IP/hostname, username, password, stress time in seconds, and number of CPU/ memory/ I/O workers, depending on the test you want to execute. 
+		You will see the result below after execution.</p> 
 
 	
 
