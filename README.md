@@ -10,3 +10,4 @@
 
 ![Imple](https://github.com/samsungmajor3/CS-4366/assets/118413043/be6349b6-ed80-478e-9812-edcadea4ec3d)
 
+![CPUsage](https://github.com/samsungmajor3/CS-4366/assets/118413043/f14626b4-4e9d-4033-9fa9-8ec014ae645d)
